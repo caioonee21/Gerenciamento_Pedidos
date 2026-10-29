@@ -122,3 +122,9 @@ Não envie `node_modules`, tokens, senhas ou arquivos `.env` com credenciais.
 ## Uso de IA
 
 A IA foi utilizada como apoio para organizar os arquivos, elaborar a lógica inicial dos endpoints, sugerir validações e preparar testes e documentação. Uma sugestão adotada foi acompanhar o fluxo com mensagens `console.log` no controller e no service, seguindo o padrão do código de referência; também foi adotado um middleware central para padronizar erros. O aluno deve executar, testar e compreender o código antes de entregá-lo.
+
+## Verificação dos testes
+
+A API foi testada utilizando o Postman para verificar
+a criação, listagem, consulta e atualização de pedidos,
+incluindo o tratamento de dados inválidos e pedidos inexistentes.
